@@ -47,8 +47,8 @@ module.exports = async (client) => {
 
     client.on("ready", async () => {
         const MainGuild = client.guilds.cache
-        .get("883313987222122516")
-            
+        .get("Your guild id here")
+           // remove comments form the line below if you want it for a single guild. 
           MainGuild.commands.set(CommandsArray)/*.then(async(command) => {
             
         //     const Roles = (commandName) => {
@@ -79,8 +79,8 @@ module.exports = async (client) => {
         //         ]
         //     }, []);
         //   await  MainGuild.commands.permissions.set({ fullPermissions })
-          
-                  // Register for all the guilds the bot is in
+          // remove comments form the line below if you want it if you want to
+                  register cmds for all the guilds the bot is in
         // await client.application.commands.set(arrayOfSlashCommands);
 
 
